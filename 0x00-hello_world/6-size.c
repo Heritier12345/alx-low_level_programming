@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - Starts being serious
  * Return: 0 (Focus)
