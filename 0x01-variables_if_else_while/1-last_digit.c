@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Prints the last digits randmly
- * Return: Always 0.
+ * main - Entry point
+ * Description: 'get the last degit of a number'
+ * Return: Always0
  */
 int main(void)
 {
@@ -23,8 +24,7 @@ int main(void)
 	}
 	else
 	{
-		printf("Last digit of %d is %d and less than 6 and not 0\n", n, ld);
+		printf("Last digit of %d is %d and less than 6 and not o\n", n, ld);
 	}
-
 	return (0);
 }
