@@ -1,13 +1,13 @@
 #include <stdio.h>
-
-/*
- * main - Prints the alphabet.
- * Return: Always 0 (Success)
+/**
+ * main - Entry point
+ * Description: 'Print aplhabet'
+ * Return: Always 0
  */
 int main(void)
 {
 	int n = 97;
-	int m =65;
+	int m = 65;
 
 	while (n <= 122)
 	{
@@ -19,7 +19,7 @@ int main(void)
 		putchar(m);
 		m++;
 	}
-	puchar('\n');
+	putchar('\n');
 	return (0);
 }
 
