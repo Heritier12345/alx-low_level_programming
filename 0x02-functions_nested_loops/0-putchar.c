@@ -1,14 +1,13 @@
-#include <stdio.h>
-#include <0-putchar.c>
-#include <main.h>
+#include "main.h"
+#include <unistd.h>
 /**
- * main - Entry point
- * Description: 'print alphabet in lowercase'
- * Return: Always 0
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: on suceess 1.
+ * on error, -1 is returned, and errno is set appropriately
  */
-int _putchar(void)
+int _putchar(char c)
 {
-	putchar("_putchar");
-	putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
