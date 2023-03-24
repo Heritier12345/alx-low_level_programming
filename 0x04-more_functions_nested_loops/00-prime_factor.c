@@ -4,7 +4,7 @@
 /**
  * main - finds and prints the largest prime factor of the number 612852475143
  * followed by a new line
- * Returm: Always 0 (succes)
+ * Returm: Always 0 (success)
  */
 
 int main(void)
@@ -31,7 +31,7 @@ int main(void)
 	}
 	if (n > 2)
 		max = n;
-	printf("%ld\n", max);
+	printf("%d\n", max);
 
 	return (0);
 }
